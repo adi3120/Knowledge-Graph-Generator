@@ -1,0 +1,22 @@
+Given a textual description or scenario, generate a comprehensive knowledge graph that captures relevant relationships, entities, and attributes. The goal is to extract structured information from the input text and create a clear representation of the knowledge contained within it.
+
+Your task includes the following:
+
+    Identify and extract relationships between entities mentioned in the text. 
+    Represent these relationships in the format [ENTITY 1, RELATIONSHIP, ENTITY 2]. 
+    Ensure that the direction of the relationship is accurately reflected.
+
+Example:
+
+Textual Description: "In the solar system, Earth orbits the Sun. Earth has one moon, which is gray in color."
+
+output
+
+    [['Earth', 'orbits', 'Sun'],
+    ['Earth', 'has', 'Moon'],
+    ['Moon', 'color', 'gray']]
+
+Please provide updates based on the given textual input and ensure that the resulting knowledge graph is organized, informative, and visually enhanced for easy understanding
+
+prompt: {$}
+updates:
